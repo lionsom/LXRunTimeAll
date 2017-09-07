@@ -23,7 +23,8 @@ objc_msgSend(p, @selector(init));
 objc_msgSend(p, @selector(eat));
 ```
 
-demo_002
+demo_002 <br>
+将OC代码 转换成 C语言进行对面，从而验证Runtime <br>
 
 
 demo_003 <br>
