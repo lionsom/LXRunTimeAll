@@ -26,7 +26,7 @@ objc_msgSend(p, @selector(eat));
 demo_002
 
 
-demo_003
+demo_003 <br>
 目的：给系统NSURL这个类的URLWithString 方法添加一个功能，创建URL又能判断是否为空
 解决方案：
 ```
@@ -40,7 +40,7 @@ Method LXURLWithStr = class_getClassMethod(self, @selector(LX_URLWithString:));
 method_exchangeImplementations(URLWithStr, LXURLWithStr);
 ```
 
-demo_4
+demo_4 <br>
 归档解档
 ```
 unsigned int count = 0;
@@ -67,13 +67,13 @@ free(ivars);
 ```
 
 
-demo_005
+demo_005 <br>
 类似于demo_003是一个方法交换的验证。
 
-demo_006
-Class_isa对象模型及类与元类的探究，也就是metaClass
-可看图 /Pic/demo_006_001.jpg
-参考文档：http://zziking.github.io/ios/2016/02/08/Objective-C_Runtime_1_The_object_model.html
+demo_006 <br>
+Class_isa对象模型及类与元类的探究，也就是metaClass <br>
+可看图 /Pic/demo_006_001.jpg <br>
+参考文档：http://zziking.github.io/ios/2016/02/08/Objective-C_Runtime_1_The_object_model.html <br>
 
 
 
