@@ -2,8 +2,8 @@
 runtime各类问题的探究，都在这！！！
 
 -------------------------
-简书地址：http://www.jianshu.com/p/bebd89bd7ca8
-        http://www.jianshu.com/p/f48ce7225cf8
+简书地址：http://www.jianshu.com/p/bebd89bd7ca8 <br>
+        http://www.jianshu.com/p/f48ce7225cf8 <br>
 
 -------------------------
 demo_001
@@ -65,3 +65,20 @@ NSLog(@"BBBBB == %@",key);
 
 free(ivars);
 ```
+
+
+demo_005
+类似于demo_003是一个方法交换的验证。
+
+demo_006
+Class_isa对象模型及类与元类的探究，也就是metaClass
+可看图 /Pic/demo_006_001.jpg
+参考文档：http://zziking.github.io/ios/2016/02/08/Objective-C_Runtime_1_The_object_model.html
+
+
+
+
+
+
+
+
