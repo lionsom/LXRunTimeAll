@@ -77,7 +77,8 @@ Class_isa对象模型及类与元类的探究，也就是metaClass <br>
 参考文档：http://zziking.github.io/ios/2016/02/08/Objective-C_Runtime_1_The_object_model.html <br>
 
 
-
+RuntimeDemo_008 <br>
+利用Runtime减少应用崩溃-例如数组越界 <br>
 
 
 
